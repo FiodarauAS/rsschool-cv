@@ -54,7 +54,7 @@ window.onload = function ()
           let rx = new Uint8Array(info.data.slice(0, info.data.byteLength));
       });
   }
-
+ 
   function transfer()
   {
       try
