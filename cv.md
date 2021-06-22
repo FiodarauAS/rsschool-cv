@@ -30,7 +30,7 @@ window.onload = function ()
   let socketId;
   let TCPPort = 834;
   let IP = "192.168.75.2";
-  let msg = "Hello";
+  let msg = "0A 00 03 08 FF 00 10 00 D2 08";
 
   document.querySelector("#disconnect").addEventListener("click",
       function () {
